@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vello & Co. — Artisan Coffee House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-mark">V</span>
+        <span class="logo-text">Vello &amp; Co.</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">Our Story</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#specials" class="nav-link">Specials</a></li>
+        <li><a href="#team" class="nav-link">Baristas</a></li>
+        <li><a href="#reserve" class="nav-link nav-cta">Reserve a Seat</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1800&q=80" alt="Café interior" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-fade">Est. 2017 · Artisan Coffee House</p>
+      <h1 class="hero-heading reveal-up">
+        Every Cup<br /><em>Tells a Story</em>
+      </h1>
+      <p class="hero-sub reveal-up delay-1">Slow-roasted single origins. Handcrafted to the last drop.</p>
+      <div class="hero-actions reveal-up delay-2">
+        <a href="#reserve" class="btn btn-primary">Order Now</a>
+        <a href="#menu" class="btn btn-ghost">View Menu</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="about-grid container">
+      <div class="about-visual reveal-left">
+        <div class="about-img-frame">
+          <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&q=80" alt="Coffee beans roasting" />
+        </div>
+        <div class="about-badge">
+          <span class="badge-number">47</span>
+          <span class="badge-label">Origins<br />Sourced</span>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-heading">Rooted in<br /><em>Craftsmanship</em></h2>
+        <p class="about-para">Vello & Co. began in a small warehouse on the edge of the city — a roaster's obsession with the bean beneath the brew. We travel twice a year to visit the farms whose names appear on our bags: the hillside growers of Yirgacheffe, the micro-lots of Huila, the shade-grown plots of Sumatra.</p>
+        <p class="about-para">Each variety is roasted in small batches, cupped daily, and served within days of roasting. We believe coffee is a living thing — and we honour that.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">7</span>
+            <span class="stat-desc">Years of craft</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-desc">Farm partners</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-desc">Cups poured</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <p class="section-label">The Menu</p>
+        <h2 class="section-heading">Something for<br /><em>Every Palate</em></h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card reveal-up" style="--delay:0ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&q=80" alt="Espresso" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Espresso</h3>
+              <span class="price">₱95</span>
+            </div>
+            <p>Pure, dense, electric. Our signature blend pressed at 9 bar into a concentrated 30ml shot.</p>
+            <span class="menu-tag">Signature</span>
+          </div>
+        </article>
+        <article class="menu-card reveal-up" style="--delay:80ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80" alt="Latte" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Flat White</h3>
+              <span class="price">₱175</span>
+            </div>
+            <p>Velvety microfoam pulled over a ristretto double. The barista's daily ritual.</p>
+            <span class="menu-tag">Bestseller</span>
+          </div>
+        </article>
+        <article class="menu-card reveal-up" style="--delay:160ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80" alt="Cappuccino" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Cappuccino</h3>
+              <span class="price">₱160</span>
+            </div>
+            <p>A classic in three equal thirds — espresso, steamed milk, airy foam. Perfection in balance.</p>
+            <span class="menu-tag">Classic</span>
+          </div>
+        </article>
+        <article class="menu-card reveal-up" style="--delay:240ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?w=600&q=80" alt="Cold Brew" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Cold Brew</h3>
+              <span class="price">₱195</span>
+            </div>
+            <p>Twenty hours of patience, zero heat. Smooth, round, no bitterness — just coffee at its most honest.</p>
+            <span class="menu-tag">Cold</span>
+          </div>
+        </article>
+        <article class="menu-card reveal-up" style="--delay:320ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=600&q=80" alt="Mocha" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mocha</h3>
+              <span class="price">₱185</span>
+            </div>
+            <p>Single-origin dark chocolate meets our house espresso. Decadent, but never loud.</p>
+            <span class="menu-tag">Indulgent</span>
+          </div>
+        </article>
+        <article class="menu-card reveal-up" style="--delay:400ms">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&q=80" alt="Pour Over" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Pour Over</h3>
+              <span class="price">₱220</span>
+            </div>
+            <p>A slow and deliberate brew. Ask your barista for today's single origin and the story behind it.</p>
+            <span class="menu-tag">Seasonal</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALS -->
+  <section class="specials section" id="specials">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <p class="section-label">Signature Series</p>
+        <h2 class="section-heading">The<br /><em>House Specials</em></h2>
+      </div>
+    </div>
+    <div class="specials-track-wrapper reveal-fade delay-1">
+      <div class="specials-track" id="specialsTrack">
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1592663527359-cf6642f54cff?w=700&q=80" alt="Honey Cardamom Latte" />
+          <div class="special-card-body">
+            <h3>Honey Cardamom Latte</h3>
+            <p>House-infused cardamom honey stirred into a silky oat milk latte.</p>
+            <span class="price-tag">₱210</span>
+          </div>
+        </div>
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1531928351158-2f736078e0a1?w=700&q=80" alt="Coconut Cold Brew" />
+          <div class="special-card-body">
+            <h3>Coconut Cold Brew</h3>
+            <p>Tropical cold brew meets toasted coconut cream — a local take on a global favourite.</p>
+            <span class="price-tag">₱230</span>
+          </div>
+        </div>
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1562802378-063ec186a863?w=700&q=80" alt="Salted Caramel Cortado" />
+          <div class="special-card-body">
+            <h3>Salted Caramel Cortado</h3>
+            <p>Equal espresso and warm milk, finished with house-made salted caramel drizzle.</p>
+            <span class="price-tag">₱200</span>
+          </div>
+        </div>
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=700&q=80" alt="Barako Espresso" />
+          <div class="special-card-body">
+            <h3>Barako Espresso</h3>
+            <p>Locally sourced Barako beans from Batangas — bold, fruity, and unapologetically Filipino.</p>
+            <span class="price-tag">₱165</span>
+          </div>
+        </div>
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=700&q=80" alt="Matcha Mist Latte" />
+          <div class="special-card-body">
+            <h3>Matcha Mist Latte</h3>
+            <p>Ceremonial grade matcha whisked into warm oat milk. Earthy, calming, beautiful.</p>
+            <span class="price-tag">₱215</span>
+          </div>
+        </div>
+      </div>
+      <div class="specials-controls">
+        <button class="spec-btn" id="specPrev" aria-label="Previous">←</button>
+        <button class="spec-btn" id="specNext" aria-label="Next">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <p class="section-label">The Baristas</p>
+        <h2 class="section-heading">The Hands<br /><em>Behind the Cup</em></h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal-up" style="--delay:0ms">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&q=80" alt="Marco" />
+          </div>
+          <div class="team-info">
+            <h3>Marco Reyes</h3>
+            <p class="team-role">Head Roaster</p>
+            <p class="team-bio">A decade in specialty coffee. Marco sources every bean himself and runs our cupping sessions every Tuesday.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-up" style="--delay:100ms">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80" alt="Sophia" />
+          </div>
+          <div class="team-info">
+            <h3>Sophia Lim</h3>
+            <p class="team-role">Lead Barista</p>
+            <p class="team-bio">Latte art champion 2022. Sophia believes every pour is a small act of care for the person waiting at the counter.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-up" style="--delay:200ms">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=500&q=80" alt="Eli" />
+          </div>
+          <div class="team-info">
+            <h3>Eli Santos</h3>
+            <p class="team-role">Brew Bar Lead</p>
+            <p class="team-bio">Trained in Tokyo, rooted in Manila. Eli runs the manual brew bar and is obsessed with grind consistency.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section class="reserve section" id="reserve">
+    <div class="reserve-inner container">
+      <div class="reserve-text reveal-left">
+        <p class="section-label">Reserve a Seat</p>
+        <h2 class="section-heading">Come In.<br /><em>Stay a While.</em></h2>
+        <p class="reserve-desc">Whether it's a solo work session or a gathering of old friends — we'll have a spot waiting. Reserve ahead and we'll make sure your first cup is ready when you arrive.</p>
+        <ul class="hours-list">
+          <li><span>Monday – Friday</span><span>7:00 AM – 9:00 PM</span></li>
+          <li><span>Saturday</span><span>8:00 AM – 10:00 PM</span></li>
+          <li><span>Sunday</span><span>9:00 AM – 7:00 PM</span></li>
+        </ul>
+      </div>
+      <div class="reserve-form-wrap reveal-right">
+        <form class="reserve-form" id="reserveForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your name" autocomplete="name" />
+              <span class="form-error" id="fnameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+              <span class="form-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rdate">Date</label>
+              <input type="date" id="rdate" name="rdate" />
+              <span class="form-error" id="rdateError"></span>
+            </div>
+            <div class="form-group">
+              <label for="rtime">Time</label>
+              <input type="time" id="rtime" name="rtime" />
+              <span class="form-error" id="rtimeError"></span>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="notes">Order Notes <span class="optional">(optional)</span></label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Any dietary needs, drinks to have ready, special occasion…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span class="btn-label">Confirm Reservation</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            <p>You're all set! See you soon ☕</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo footer-logo">
+          <span class="logo-mark">V</span>
+          <span class="logo-text">Vello &amp; Co.</span>
+        </a>
+        <p class="footer-tagline">Slow coffee, honest craft.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <p>12 Rizal Street<br />Nasugbu, Batangas<br />Philippines</p>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Mon–Fri: 7am–9pm<br />Sat: 8am–10pm<br />Sun: 9am–7pm</p>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 Vello & Co. All rights reserved.</p>
+      <p class="footer-credit">Brewed with intention.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
